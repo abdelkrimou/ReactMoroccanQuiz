@@ -1,0 +1,84 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital city of Morocco?",
+      "options": ["Casablanca", "Rabat", "Marrakech", "Fez"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which mountain range extends across the northwestern part of Morocco?",
+      "options": [
+        "Himalayas",
+        "Andes Mountains",
+        "Atlas Mountains",
+        "Rocky Mountains"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which ocean lies to the west of Morocco?",
+      "options": [
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean",
+        "Indian Ocean"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "What is the traditional Moroccan dish made from semolina?",
+      "options": ["Sushi", "Burger", "Couscous", "Pizza"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which famous city in Morocco is known for its blue-painted buildings?",
+      "options": ["Tangier", "Essaouira", "Chefchaouen", "Agadir"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "What is the currency of Morocco?",
+      "options": ["Dirham", "Euro", "Dollar", "Pound"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "Which desert stretches across the southeastern part of Morocco?",
+      "options": [
+        "Gobi Desert",
+        "Sahara Desert",
+        "Atacama Desert",
+        "Kalahari Desert"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which river flows through the capital city of Morocco?",
+      "options": [
+        "Nile River",
+        "Amazon River",
+        "Mississippi River",
+        "Bouregreg River"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "What is the official language of Morocco?",
+      "options": ["Arabic", "English", "French", "Spanish"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "Which Moroccan city is famous for its annual International Film Festival?",
+      "options": ["Casablanca", "Tangier", "Marrakech", "Agadir"],
+      "correctOption": 2,
+      "points": 30
+    }
+  ]
+}
