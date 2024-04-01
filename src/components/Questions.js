@@ -1,19 +1,13 @@
 import Options from "./Options";
+import { useQuiz } from "./QuizContext";
 
-export default function Questions({ questions, dispatch, index, isAnswer }) {
+export default function Questions() {
+  const { questions, index } = useQuiz();
   return (
     <div>
       <h4>{questions[index]?.question}</h4>
       {questions[index]?.options.map((opt, i) => (
-        <Options
-          opt={opt}
-          dispatch={dispatch}
-          isAnswer={isAnswer}
-          key={i}
-          questions={questions}
-          index={index}
-          i={i}
-        />
+        <Options opt={opt} key={i} i={i} />
       ))}
     </div>
   );

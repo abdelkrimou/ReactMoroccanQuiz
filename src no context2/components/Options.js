@@ -1,7 +1,11 @@
-import { useQuiz } from "./QuizContext";
-
-export default function Options({ opt, i }) {
-  const { questions, index, isAnswer, dispatch } = useQuiz();
+export default function Options({
+  questions,
+  index,
+  opt,
+  isAnswer,
+  dispatch,
+  i,
+}) {
   return (
     <div className="options">
       <button

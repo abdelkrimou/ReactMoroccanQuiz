@@ -1,7 +1,4 @@
-import { useQuiz } from "./QuizContext";
-
-export default function Start() {
-  const { dispatch, questions } = useQuiz();
+export default function Start({ dispatch, questions }) {
   return (
     <div className="start">
       <h2>Welcome to the Moroccan Quiz !</h2>

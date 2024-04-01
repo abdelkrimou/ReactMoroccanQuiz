@@ -1,7 +1,4 @@
-import { useQuiz } from "./QuizContext";
-
-export default function NextButton() {
-  const { dispatch, index, questions } = useQuiz();
+export default function NextButton({ dispatch, index, questions }) {
   return index + 1 === questions.length ? (
     <button
       className="btn btn-ui"
