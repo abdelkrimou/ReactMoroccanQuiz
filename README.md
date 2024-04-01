@@ -2,6 +2,17 @@
 
 Welcome to the React Quiz App focusing on Moroccan culture! This project was created with the intention of learning and understanding the concept of the useReducer hook in React.
 
+# 🚀 Update! 🚀
+
+I've just made a significant enhancement to my React project on GitHub (removing the old src file and adding a new one)! With a focus on enhancing scalability, maintainability, and state management, we've refactored the entire application to utilize the Context API.
+
+# 🔄 What's Changed?
+
+Implemented the Context API to efficiently manage application-wide state.
+Reorganized components to utilize context providers and consumers, streamlining data flow and reducing prop drilling.
+Enhanced code readability and maintainability by centralizing state management logic.
+
+
 ## Description
 
 This quiz app is designed to test your knowledge about various aspects of Moroccan culture, including geography, history, cuisine, traditions, and more. Through a series of multiple-choice questions, you'll have the opportunity to explore and learn fascinating facts about Morocco.
